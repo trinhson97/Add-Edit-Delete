@@ -13,6 +13,7 @@
 		E787232120BF8E220081C990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E787232020BF8E220081C990 /* Assets.xcassets */; };
 		E787232420BF8E220081C990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E787232220BF8E220081C990 /* LaunchScreen.storyboard */; };
 		E787232F20BF8E220081C990 /* Add_Edit_DeleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E787232E20BF8E220081C990 /* Add_Edit_DeleteTests.swift */; };
+		E787233A20BF90F20081C990 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E787233920BF90F20081C990 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E787232A20BF8E220081C990 /* Add,Edit,DeleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Add,Edit,DeleteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E787232E20BF8E220081C990 /* Add_Edit_DeleteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_Edit_DeleteTests.swift; sourceTree = "<group>"; };
 		E787233020BF8E220081C990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E787233920BF90F20081C990 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				E787231920BF8E220081C990 /* AppDelegate.swift */,
 				E787231B20BF8E220081C990 /* ViewController.swift */,
 				E787231D20BF8E220081C990 /* Main.storyboard */,
+				E787233920BF90F20081C990 /* TableViewController.swift */,
 				E787232020BF8E220081C990 /* Assets.xcassets */,
 				E787232220BF8E220081C990 /* LaunchScreen.storyboard */,
 				E787232520BF8E220081C990 /* Info.plist */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E787231C20BF8E220081C990 /* ViewController.swift in Sources */,
+				E787233A20BF90F20081C990 /* TableViewController.swift in Sources */,
 				E787231A20BF8E220081C990 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
